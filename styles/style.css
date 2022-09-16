@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+html {
+    width: 600px;
+}
+
+header {
+    background-color: #011936;
+    border-radius: 20px;
+    display: flex;
+    height: 150px;
+    width: 600px;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+    z-index: 100;
+    
+}
+
+img {
+    height: 8rem;
+    width: 8rem;
+    justify-self: center;
+    border-radius: 10px;
+}
+
+h1 {
+    font-family: Lato;
+    color: #FFFBFC;
+    
+}
+
+main h1 {
+    font-family: Lato;
+    color: #465362;
+    border-bottom-color: #009FB7;
+    border-bottom-style: solid;
+    margin-bottom: -3px;
+    padding-left: 10px;
+}
+
+
+h2 {
+    font-family: Lato;
+    color: #FFFBFC;
+}
+
+h3 {
+    font-family: Lato;
+    color: #FFFBFC;
+}
+
+main {
+    font-family: Lato;
+
+}
+
+main p {
+    font-family: Lato;
+    font-style: italic;
+    border-top-width: 2px;
+    border-top-style: solid;
+    border-color: #009FB7;
+    padding-left: 10px;
+    
+}
+
+footer {
+    background-color: #011936;
+    border-radius: 20px;
+    display: grid;
+    height: 100px;
+    width: 600px;
+    align-items: center;
+    justify-content: space-evenly;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    position: relative;
+    z-index: 100;
+}
+
+footer h2 {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    margin: 0 auto;
+    
+}
+
+footer h3 {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    margin: 0 auto;
+    
+}
+
+main {
+    background-color: #7ad8c2;
+    width: 600px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: -15px;
+    margin-bottom: -15px;
+    position: relative;
+}
+
+a:visited {
+    color: #465362;
+}
