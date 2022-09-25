@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 html {
     width: 600px;
+    margin: 0 auto;
 }
 
 header {
@@ -29,14 +30,26 @@ h1 {
     
 }
 
-main h1 {
-    font-family: Lato;
+/* main h1 {
+    /* font-family: Lato; 
+    font-family: 'Open Sans', sans-serif;
+    color: #465362;
+    border-bottom-color: #009FB7;
+    border-bottom-style: solid;
+    margin-bottom: -3px;
+    padding-left: 10px;
+} */
+
+main h2 {
+    /* font-family: Lato; */
+    font-family: 'Open Sans', sans-serif;
     color: #465362;
     border-bottom-color: #009FB7;
     border-bottom-style: solid;
     margin-bottom: -3px;
     padding-left: 10px;
 }
+
 
 
 h2 {
