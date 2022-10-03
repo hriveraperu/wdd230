@@ -1,0 +1,384 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko');
+@import url('https://fonts.googleapis.com/css2?family=Patua+One');
+
+
+html {
+    background-color: #EDE7E3;
+    
+}
+
+body {
+    min-height: 50rem;
+}
+
+h1 {
+    font-family: 'Teko', sans-serif;
+    font-size: 5rem;
+}
+
+header section {
+    background-color: #011627 ;
+    color: #489FB5;
+}
+
+section {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+section img {
+    width: 10rem;
+    height: 10rem;
+}
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    height: 3rem;
+}
+
+a {
+    text-decoration: none;
+    color: #011627;
+    font-family: 'Teko', sans-serif;
+}
+
+/* a:hover {
+    text-decoration: none;
+    color: #8F6593;
+    font-family: 'Teko', sans-serif;
+} */
+
+
+nav {
+    background-color: #489FB5;
+}
+
+li, a {
+    width: 25%;
+    font-size: 1.3rem;
+}
+
+li {
+    border-color: #EDE7E3;
+    border-width: 1px;
+    border-style: ridge;
+    height: 100%;
+}
+
+li:hover {
+    border-color: #EDE7E3;
+    border-width: 1px;
+    border-style: ridge;
+    background-color: #8F6593;
+    transition: 0.5s;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #011627 ;
+    color: #489FB5;
+    font-family: 'Teko', sans-serif;
+
+}
+
+footer p {
+    color: #489FB5;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+footer a p:hover {
+    color: #8F6593;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+main {
+    padding-bottom: 2rem;
+}
+
+main h2 {
+    font-family: 'Teko', sans-serif;
+    padding-left: 1rem;
+    font-size: 2rem;
+    color: #011627;
+}
+
+main p {
+    font-family: 'Patua One', cursive;
+    padding-left: 1rem;
+    color: #489FB5;
+}
+
+main h3 {
+    font-family: 'Patua One', cursive;
+    padding-left: 1rem;
+    color: #489FB5;
+    font-size: 1.5rem;
+    padding: 0;
+}
+
+main section {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+section p {
+    width: 100%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-align: center;
+    border-style: solid;
+}
+
+section p:nth-of-type(1) {
+    background-color: #011627;
+    color: #EDE7E3;
+}
+
+section p:nth-of-type(2) {
+    background-color: #489FB5;
+    color: black;
+}
+
+section p:nth-of-type(3) {
+    background-color: #82C0CC;
+    color: #EDE7E3;
+    border-color: #011627;
+}
+
+section p:nth-of-type(4) {
+    background-color: #EDE7E3;
+    color: #011627;
+}
+
+section p:nth-of-type(5) {
+    background-color: #8F6593;
+    color: #011627;
+}
+
+.site-header {
+    background-color: #011627;
+    font-family: 'Teko', sans-serif;
+    color: #489FB5;
+    font-size: 5rem;
+}
+
+.primary-navigation {
+    background-color: #489FB5;
+    font-family: 'Teko', sans-serif;
+    font-size: 1.3rem;
+    color: #011627;
+}
+
+.footer-navigation {
+    background-color: #011627;
+    font-family: 'Teko', sans-serif;
+    color: #489FB5;
+    font-size: 1.2rem;
+}
+
+.heading1 {
+    color: #489FB5;
+    font-family: 'Teko', sans-serif;
+    font-size: 5rem;
+}
+
+.heading2 {
+    color: #011627;
+    font-family: 'Teko', sans-serif;
+    font-size: 2rem;
+}
+
+.heading3 {
+    color: #011627;
+    font-family: 'Teko', sans-serif;
+    font-size: 1.5rem;
+}
+
+.paragraph {
+    color: #489FB5;
+    font-family: 'Patua One', cursive;
+    font-size: 1.2rem;
+}
+
+tr th, tr td {
+    font-family: 'Patua One', cursive;
+    width: 20%;
+    text-align: center;
+    border-style: solid;
+    border-width: 2px;
+    font-size: 1.2rem;
+
+}
+
+table {
+    margin: 0 auto;
+    width: 80%;
+}
+
+tr td:nth-of-type(3) {
+    font-size: 1.2rem;
+    font-family: 'Patua One', cursive;
+}
+
+tr th {
+    background-color: #8F6593;
+    color: #011627;
+    font-weight: 200;    
+}
+
+section.first-persona p {
+    display: inline-block;
+    color: #489FB5;
+    background-color: initial;
+    border-style: none;
+    width: 65%;
+    vertical-align: top;
+    margin-top: 3rem;
+    text-align: justify;
+}
+
+
+
+section.first-persona h3 {
+    width: 100%;
+    text-align: center;
+    color: #011627;
+}
+
+
+.first-persona img {
+    width: 15rem;
+    height: 15rem;
+    display: inline-block;
+    vertical-align: top;
+
+}
+
+section.second-persona p {
+    display: inline-block;
+    background-color: initial;
+    color: #489FB5;
+    border-style: none;
+    width: 65%;
+    vertical-align: middle;
+    margin-top: 3rem;
+    text-align: justify;
+   
+}
+
+section.second-persona h3 {
+    width: 100%;
+    color: #011627;
+    text-align: center;
+}
+
+.second-persona img {
+    width: 15rem;
+    height: 15rem;
+    display: inline-block;
+    vertical-align: top;
+
+}
+
+nav ul li a, nav ul li a h3{
+    
+    margin: 0 auto;
+    align-items: center;
+    height: 100%;
+    display: inline-flex;
+    width: 100%;
+    padding: 0;
+    justify-content: center;
+}
+
+
+@media only screen and (max-width: 769px) {
+
+    header, section {
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        margin: 0 auto;
+    }
+
+
+
+    footer {
+      
+      border-bottom-left-radius: 20px;
+      border-bottom-right-radius: 20px;
+    }
+  
+    h1 {
+      font-size: 3.5rem;
+    }
+  
+
+
+    .part:nth-of-type(3) {
+        grid-column: 1/3;
+    }
+
+ }
+
+
+
+@media only screen and (max-width: 425px) {
+
+
+
+
+nav ul li a, nav ul li a h3{
+    
+    margin: 0 auto;
+    align-items: center;
+    height: 100%;
+    
+    
+    padding: 0;
+    justify-content: center;
+}
+
+
+nav ul {
+    display: block;
+    height: max-content;
+       
+}
+
+li {
+    width: 100%;
+    height: 3rem;
+}
+
+footer {
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 15px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+}
