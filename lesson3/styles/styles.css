@@ -240,6 +240,34 @@ tr th {
     font-weight: 200;    
 }
 
+section.persona p {
+    display: inline-block;
+    color: #489FB5;
+    background-color: initial;
+    border-style: none;
+    width: 65%;
+    vertical-align: top;
+    margin-top: 3rem;
+    text-align: justify;
+}
+
+
+
+section.persona h3 {
+    width: 100%;
+    text-align: center;
+    color: #011627;
+}
+
+
+.persona img {
+    width: 15rem;
+    height: 15rem;
+    display: inline-block;
+    vertical-align: top;
+
+}
+/* 
 section.first-persona p {
     display: inline-block;
     color: #489FB5;
@@ -266,9 +294,9 @@ section.first-persona h3 {
     display: inline-block;
     vertical-align: top;
 
-}
+} */
 
-section.second-persona p {
+/* section.second-persona p {
     display: inline-block;
     background-color: initial;
     color: #489FB5;
@@ -278,9 +306,11 @@ section.second-persona p {
     margin-top: 3rem;
     text-align: justify;
    
-}
+} */
 
-section.second-persona h3 {
+
+
+/* section.second-persona h3 {
     width: 100%;
     color: #011627;
     text-align: center;
@@ -292,7 +322,7 @@ section.second-persona h3 {
     display: inline-block;
     vertical-align: top;
 
-}
+} */
 
 nav ul li a, nav ul li a h3{
     
