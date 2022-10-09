@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko');
+@import url('https://fonts.googleapis.com/css2?family=Patua+One');
+
+
+html {
+    background-color: #EDE7E3;
+    
+}
+
+h1 {
+    font-family: 'Teko', sans-serif;
+    font-size: 5rem;
+}
+
+h2 {
+    font-family: 'Teko', sans-serif;
+    font-size: 3rem;
+}
+
+
+header section {
+    background-color: #011627 ;
+    color: #489FB5;
+}
+
+section {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+section#header {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: 1fr 1fr;
+    text-align: center;
+    
+}
+
+header section h2 {
+    grid-column: 2/3;
+    
+    
+}
+
+header section img {
+    grid-row: 1/3;
+}
+
+
+button#hamburger span {
+    font-size: 2rem;
+    
+}
+
+nav ul {display:none; }
+nav ul.open {display: block; margin: 0; }
+
+
+
+
+header nav {
+    display: block;
+}
+
+#hamburger {
+    margin-left: 0.3rem;
+}
+
+#hamburger span:nth-child(1) {
+    display: block;
+    
+}
+
+
+#hamburger span:nth-child(2) {
+    display: none;
+}
+
+#hamburger.open span:nth-child(1) {
+    display: none;
+}
+
+
+#hamburger.open span:nth-child(2) {
+    display: block;
+}
+
+li a:hover {
+    
+    background-color: #8F6593;
+    transition: 0.5s;
+}
+
+
+nav ul li a {
+    display: block;
+    padding: .8rem 2vw;
+    text-decoration: none;
+    background-color: #489FB5;
+
+}
+
+nav ul li.active a{
+    background-color: #011627;
+    color: #EDE7E3;
+}
+
+
+nav {
+    background-color: #011627;
+}
+
+li {
+    /* border-color: #EDE7E3;
+    border-width: 1px;
+    border-style: ridge; */
+    height: 100%;
+    text-decoration: none;
+    color: #011627;
+    font-family: 'Teko', sans-serif;
+    text-align: center;
+    list-style: none;
+    
+}
+
+
+ul li a {
+    text-decoration: none;
+    color: #011627;
+    
+}
+
+
+
+ul {
+    padding: 0;
+}
+
+footer {
+    display: block;
+    
+    background-color: #011627 ;
+    color: #489FB5;
+    font-family: 'Teko', sans-serif;
+
+}
+
+footer div p{
+    font-size: 1rem;   
+    text-align: center;
+    background-color: #011627 ;
+    color: #489FB5;
+    font-family: 'Teko', sans-serif;
+
+}
+
+footer p {
+    color: #489FB5;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+footer a p:hover {
+    color: #8F6593;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+main {
+    padding-bottom: 2rem;
+    margin: 0 auto;
+    display: block;
+    margin-top: 1rem;
+}
+
+main section {
+    padding: 2rem;
+    border: 1px solid #011627;
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+
+main h2 {
+    font-family: 'Teko', sans-serif;
+    padding-left: 1rem;
+    font-size: 2rem;
+    color: #011627;
+}
+
+main p {
+    font-family: 'Patua One', cursive;
+    padding-left: 1rem;
+    color: #489FB5;
+}
+
+main h3 {
+    font-family: 'Patua One', cursive;
+    padding-left: 1rem;
+    color: #489FB5;
+    font-size: 1.5rem;
+    padding: 0;
+}
+
+main div#spotlight-list {
+    padding: 0.5rem;
+    border: 1px solid #011627;
+    margin: 0 auto;
+}
+
+section div h2 {
+    padding: 0.5rem;
+    border: 1px solid #011627;
+    margin: 0 auto;
+}
+
+
+
+
+
+/* nav ul li a, nav ul li a h3{
+    
+    margin: 0 auto;
+    align-items: center;
+    height: 100%;
+    display: inline-flex;
+    width: 100%;
+    padding: 0;
+    justify-content: center;
+} */
+
+
+main p {
+    padding: 5px;
+}
+
+
+
+/* nav ul li a, nav ul li a h3{
+    
+    margin: 0 auto;
+    align-items: center;
+    height: 100%;
+    
+    
+    padding: 0;
+    justify-content: center;
+} */
+
+
+/* nav ul {
+    display: block;
+    height: max-content;
+        
+}
+
+li {
+    width: 100%;
+    height: 3rem;
+} */
+
+footer {
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+main h2 {
+    font-size: 15px;
+    text-align: center;
+    padding: 0;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+
+
+main table {
+    margin: 0 auto;
+    display: table-header-group;
+    width: 99%;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: auto;
+}
+
+
+footer img {
+    width: 5rem;
+    margin: 0 auto;
+    display: block;
+}
+    
+footer h2 {
+    text-align: center;
+}
+
+header nav a, header nav a img {
+    height: 2.2rem;
+    width: 2.2rem;
+    float: right;
+    margin-right: 1rem;
+
+}
+    
+.join-box {
+    display: none;
+}
