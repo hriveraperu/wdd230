@@ -307,9 +307,9 @@ footer h2 {
 
 header nav a, header nav a img {
     height: 2.2rem;
-    width: 2.2rem;
+    /* width: 2.2rem;
     float: right;
-    margin-right: 1rem;
+    margin-right: 1rem; */
 
 }
     
