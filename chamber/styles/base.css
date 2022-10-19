@@ -191,6 +191,7 @@ main section {
     text-align: center;
     margin-top: 5px;
     margin-bottom: 5px;
+    
 }
 
 
@@ -396,4 +397,8 @@ section div img {
 
 section img {
     width: 100%;
+}
+
+.weather-box {
+    width: 80%;
 }

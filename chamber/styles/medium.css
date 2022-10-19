@@ -194,7 +194,9 @@ main section {
     text-align: center;
 
 }
-
+.weather-box {
+    width: 100%;
+}
 
 
 }
