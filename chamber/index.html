@@ -16,14 +16,26 @@
 <body>
     <header>
         <section id="header">
-        <img src="images/logo.png" alt="">
-        <h1>Elio's Chamber of Commerce</h1>
-        <h2><span id="time"></span></h2>
+            <picture>
+                <img src="images/logo.webp" alt="Elio's chamber logo">
+            </picture>
+            <h1>Elio's Chamber of Commerce</h1>
+            <h2>
+                <span id="time"></span>
+            </h2>
         </section>
         <nav>
             <button id="hamburger"><span>&#9776;</span><span>X</span></button>
-            <a href="#"><img src="images/facebook.png" alt="facebook logo"></a>
-            <a href="#"><img src="images/twitter.png" alt="twitter logo"></a>
+            
+            <a href="#">
+                <picture>
+                    <img src="images/facebook.png" alt="facebook logo">
+                </picture>
+            </a>
+            <a href="#">
+                <picture><img src="images/twitter.png" alt="twitter logo">
+                </picture>
+            </a>
             <ul id="main-nav">
                 <li class="active">
                     <a href="#">
@@ -58,10 +70,12 @@
         
         <section class="hero-box">
             <h2>BE PART OF THE NETWORKING OF ELIO</h2>
-            <img src="images/hero-elio.jpg" alt="picture of Elio">
+            <picture>
+                <source srcset="images/hero-elio-large.jpg" media="(min-width: 64rem)">
+                <source srcset="images/hero-elio-medium.jpg" media="(min-width: 35rem)">
+                <img src="images/hero-elio-small.jpg" alt="picture of Elio">
+            </picture>
         </section>    
-        
-        
 
         <section class="event-box">
             <h2>Agricultural Fair</h2>
@@ -71,11 +85,15 @@
         </section>
         <section class="weather-box">
             <h2>WEATHER</h2>
-            <h3>Temp</h3>
+            <h3>Temp (C°)</h3>
             <span class="temperature"></span>
-            <h3>Humidity</h3>
+            <h3>Humidity (%)</h3>
             <span class="humidity"></span>
             <img class="temp-icon"></img>
+            <h3>Wind Speed (Km/h)</h3>
+            <span class="wind-speed"></span>
+            <h3>Wind Chill (C°)</h3>
+            <span class="wind-chill"></span>
             <h3>Conditions</h3>
             <span class="conditions"></span>
             <h3></h3>
@@ -91,17 +109,23 @@
         <section class="spotlight-list">
             <div class="spotlight1">
                 <h2>Vada Motors</h2>
-                <img src="images/vmotors.png" alt="logo of Vada Motors">
+                <picture>
+                    <img src="images/vmotors.png" alt="logo of Vada Motors">
+                </picture>
                 <p>If you have a problem with your car and nobody can solve it, we do solve it.</p>
             </div>
             <div class="spotlight2">
                 <h2>Vilma Estilista</h2>
-                <img src="images/vestilista.jpg" alt="logo of Vilma Estilista">
+                <picture>
+                    <img src="images/vestilista.jpg" alt="logo of Vilma Estilista">
+                </picture>
                 <p>Local Hair Stylist that do all kind of hairstyles, colors and more</p>
             </div>
             <div class="spotlight3">
                 <h2>Enjoit</h2>
-                <img src="images/enyoit.jpg" alt="logo of Enjoit">
+                <picture>
+                    <img src="images/enyoit.jpg" alt="logo of Enjoit">
+                </picture>
                 <p>Photo Sessions for all kind of public! Family, couples, friends and pets</p>
             </div>
         </div>
@@ -109,7 +133,7 @@
     </main>
 
     <footer>
-        <img src="images/logo.png" alt="">
+        <img src="images/logo.webp" alt="Elio's chamber logo">
         <div>
             <h2>Elio's Chamber of Commerce</h2>
             <p>Jr. Jose Remy Barua 2750 Urb. Elio - Lima, Perú</p>
@@ -127,5 +151,6 @@
         </div>  
     </footer>
     <script src="scripts/script.js"></script>
+    <script src="scripts/windchill.js"></script>
 </body>
 </html>
