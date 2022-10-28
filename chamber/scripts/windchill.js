@@ -1,7 +1,7 @@
 wS = document.querySelector(".wind-speed").innerHTML;
 t = document.querySelector(".temperature").innerHTML;
 
-if (t <= 10 || wS > 4.8) {
+if (t <= 10 && wS > 4.8) {
     tf = (t * 9 / 5) + 32;
     wSm = wS / 1.609344;
     windChillf = 35.74 + 0.6215 * tf - 35.75 * wSm ^ 0.16 + 0.4275 * tf * wSm^0.16;
