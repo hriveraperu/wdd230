@@ -6,6 +6,7 @@ if (t <= 10 && wS > 4.8) {
     wSm = wS / 1.609344;
     windChillf = 35.74 + 0.6215 * tf - 35.75 * wSm ^ 0.16 + 0.4275 * tf * wSm^0.16;
     windChill = (windChillf - 32) * 5 / 9;
+    windChill = Math.round(windChill * 100) / 100;
 } else {
     windChill = "N/A";
 }
