@@ -145,5 +145,14 @@ header section img {
     margin: 0 auto;
     width: 15rem;
 }
+
+#discover img {
+    filter: grayscale() ;
+}
+
+#discover img:hover {
+    filter: none;
+}
+
     
 }
