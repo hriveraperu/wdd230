@@ -459,3 +459,30 @@ nav a img {
 span.conditions {
     grid-column: 2/3;
 }
+
+/* main picture img{
+   width: 1080px;
+    width: 100%;
+} */
+
+#discover img {
+    grid-column: 1/4;
+    grid-auto-flow: column;
+    /* width: 1080px; */
+    justify-self: center;
+    width: 90%;
+    margin-bottom: 1rem;
+}
+
+#discover {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+#discover h2, #discover p  {
+    margin: 0;
+    text-align: center;
+    width: 90%;
+}

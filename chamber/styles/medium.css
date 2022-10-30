@@ -198,6 +198,15 @@ main section {
     width: 100%;
 }
 
+img[data-src] {
+    filter: blur(2em);
+    
+  }
+
+#discover img {
+    filter: blur(0em);
+    transition: filter 1.2s;
+}
 
 }
 
