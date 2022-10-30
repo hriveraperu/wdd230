@@ -206,6 +206,13 @@ img[data-src] {
 #discover img {
     filter: blur(0em);
     transition: filter 1.2s;
+    filter: grayscale() ;
+}
+
+#discover img:hover {
+    filter: none;
+    box-shadow: 1px 1px 10px 1px #8F6593;
+    transition:step-end;
 }
 
 }
