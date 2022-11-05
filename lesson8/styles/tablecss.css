@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato');
+
+body {
+    font-family: "Lato", sans-serif;
+    text-align: center;
+}
+
 :root {
     --back:         rgb(218, 102, 25);
     --back2:        rgba(240, 210, 42, 1);
@@ -50,5 +57,6 @@ tbody tr:nth-child(even) {
 td:hover {
     background-color: var(--back2);
     font-weight: bold;
+    color: var(--foredark);
 }
 
