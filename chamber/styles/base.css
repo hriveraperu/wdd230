@@ -486,3 +486,49 @@ span.conditions {
     text-align: center;
     width: 90%;
 }
+
+#join {
+    display: grid;
+}
+
+#join label {
+    display: grid;
+    text-align: left;
+    font-family: 'Patua One', cursive;
+    margin: 20px auto;
+}
+
+
+label input:required:valid {
+    border-left: #489FB5 solid 5px;
+}
+
+label input:required {
+    border-left: #8F6593 solid 5px;
+}
+
+#join label.membership {
+    display: block;
+}
+
+#np {
+    background-color: #489FB5;
+    color: #EDE7E3;
+}
+
+#bronze {
+    background-color: burlywood;
+}
+
+#silver {
+    background-color: silver;
+}
+
+#gold {
+    background-color: gold;
+}
+
+#thankyou {
+    display: block;
+    text-align: center;
+}

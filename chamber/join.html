@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elio's Chamber of Commerce</title>
+    <meta name="description" content="Elio's Chamber of Commerce - A website to let our commerce in Elio to be known.">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    
+</head>
+<body>
+    <header>
+        <section id="header">
+            <picture>
+                <img src="images/logo.webp" alt="Elio's chamber logo">
+            </picture>
+            <h1>Elio's Chamber of Commerce</h1>
+            <h2>
+                <span id="time"></span>
+            </h2>
+        </section>
+        <nav>
+            <button id="hamburger"><span>&#9776;</span><span>X</span></button>
+            
+            <a href="#">
+                <picture>
+                    <img src="images/facebook.png" alt="facebook logo">
+                </picture>
+            </a>
+            <a href="#">
+                <picture><img src="images/twitter.png" alt="twitter logo">
+                </picture>
+            </a>
+            <ul id="main-nav">
+                <li>
+                    <a href="index.html">
+                        <h3>HOME</h3>
+                    </a>
+                </li>
+                <li class="active">
+                    <a href="discover.html">
+                        <h3>DISCOVER</h3>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <h3>DIRECTORY</h3>
+                    </a>
+                </li>
+                <li>
+                    <a href="join.html">
+                        <h3>JOIN</h3>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <h3>CONTACT</h3>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="join">
+
+
+        
+        <section>
+            <form id="form" action="thankyou.html" method="get">
+                <h3>Join Elio's Chamber of Commerce</h3>
+                <label for="first-name">
+                    First Name
+                    <input type="text" name="first-name" id="first-name" placeholder="John" required>
+                </label>
+                <label for="last-name">
+                    Last Name
+                    <input type="text" name="last-name" id="last-name" placeholder="Doe" required>
+                </label>
+                <label for="business-title">
+                    Business Position
+                    <input type="text" name="Business Position" id="business-title" placeholder="Sub-General Manager" minlength="7" pattern="[a-zA-Z- ]+" title="Alpha, hyphens, and spaces only">
+                </label>
+                <label for="email">
+                    E-mail
+                    <input type="email" name="email" id="email" placeholder="name@eliococ.com" required>
+                </label>
+                <label for="phone">
+                    Cellphone
+                    <input type="tel" name="phone" id="phone" placeholder="123-456-789" required>
+                </label>
+                <label for="business-name">
+                    Business Name
+                    <input type="text" name="Business Name" id="business-name" placeholder="Elio Chamber of Commerce" required>
+                </label>
+                <fieldset>
+                    <h3>Type of Membership</h3>
+                    <label for="np-member" class="membership">
+                        
+                        <input type="radio" name="level" id="np-member" value="NP Membership" required>
+                        NP Membership $0
+                    </label>
+                    <label for="bronze-member" class="membership">
+                        
+                        <input type="radio" name="level" id="bronze-member" value="Bronze Membership" required>
+                        Bronce Membership $99
+                    </label>
+                    <label for="siver-member" class="membership">
+                        
+                        <input type="radio" name="level" id="silver-member" value="Silver Membership" required>
+                        Silver Membership $199
+                    </label>
+                    <label for="gold-member" class="membership">
+                        
+                        <input type="radio" name="level" id="gold-member" value="Gold Membership" required>
+                        Gold Membership $299
+                    </label>
+                </fieldset>
+                <label for="biz-description">
+                    Business Description
+                    <textarea name="biz-description" id="biz-description" placeholder="My business..." rows="7"></textarea>
+                </label>
+                <label for="datetime">
+                    <input type="hidden" name="" id="currentdate" value="CurrentDateTime"></input>
+                </label>
+                <label for="submit">
+                    <input type="submit" value="Submit">
+                </label>
+            </form>
+        </section>
+
+        <section>
+            <p>Get all the benefits we offer for you and your company</p>
+            
+            <h3 id="np">NP Membership</h3>
+            <p>Receive all the information from our newsletter for the upcoming events, meetings and updates</p>
+            <h3 id="bronze">Bronze Membership</h3>
+            <p>All the benefits from NP Membership and access to our webinars/seminars and training events</p>
+            <h3 id="silver">Silver Membership</h3>
+            <p>All the benefits from Bronze Membership and displaying of your business in our website</p>
+            <h3 id="gold">Gold Membership</h3>
+            <p>All the benefits from Gold Membership and use of all our facilities for meetings, twice per month</p>
+        </section>
+
+
+    </main>
+
+    <footer>
+        <img src="images/logo.webp" alt="Elio's chamber logo">
+        <div>
+            <h2>Elio's Chamber of Commerce</h2>
+            <p>Jr. Jose Remy Barua 2750 Urb. Elio - Lima, Perú</p>
+        </div>
+        <div>
+            <p>contact@eliochamber.com</p>
+            <p>+51-989649891</p>
+            <a href="#"><p>Location Map</p></a>
+        </div>
+        <div>
+            <p>&#169;<span id="year"></span> Elio Chamber .:|:. Hugo Rivera .:|:. WD230
+                <p>Last Modification: <span id="modification"></span></p> <p>Number of Visits: <span class="visits"></span></p>
+                
+            <a href="../index.html"><p>Assignment Portal</p></a>
+        </div>  
+    </footer>
+    <script src="scripts/script.js"></script>
+    <script src="scripts/lazyload.js"></script>
+    <script src="scripts/timesince.js"></script>
+    <script src="scripts/currentdate.js"></script>
+</body>
+</html>
