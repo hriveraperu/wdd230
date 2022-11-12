@@ -500,11 +500,15 @@ span.conditions {
 
 
 label input:required:valid {
-    border-left: #489FB5 solid 5px;
+    
+    border-left: #489FB5 solid 8px;
+    border-right: #489FB5 solid 8px;
 }
 
 label input:required {
-    border-left: #8F6593 solid 5px;
+    
+    border-left: #8F6593 solid 8px;
+    border-right: #8F6593 solid 8px;
 }
 
 #join label.membership {
@@ -531,4 +535,26 @@ label input:required {
 #thankyou {
     display: block;
     text-align: center;
+}
+
+button, input {
+    border-radius: 1rem;
+    padding-left: 1rem;
+    border: #011627 solid 0.15rem;    
+    margin-top: 0.3rem;
+}
+
+#form {
+    width: 90%;
+    margin: auto;
+}
+
+#membership-info article {
+    width: 90%;
+    margin: auto;
+    
+}
+
+#membership-info article p {
+    text-align: left;
 }

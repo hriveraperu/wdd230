@@ -75,48 +75,48 @@
                 <h3>Join Elio's Chamber of Commerce</h3>
                 <label for="first-name">
                     First Name
-                    <input type="text" name="first-name" id="first-name" placeholder="John" required>
+                    <input type="text" name="firstName" id="first-name" placeholder="John" required>
                 </label>
                 <label for="last-name">
                     Last Name
-                    <input type="text" name="last-name" id="last-name" placeholder="Doe" required>
+                    <input type="text" name="lastName" id="last-name" placeholder="Doe" required>
                 </label>
                 <label for="business-title">
                     Business Position
-                    <input type="text" name="Business Position" id="business-title" placeholder="Sub-General Manager" minlength="7" pattern="[a-zA-Z- ]+" title="Alpha, hyphens, and spaces only">
+                    <input type="text" name="businessPosition" id="business-title" placeholder="Sub-General Manager" minlength="7" pattern="[a-zA-Z- ]+" title="Alpha, hyphens, and spaces only">
                 </label>
                 <label for="email">
                     E-mail
-                    <input type="email" name="email" id="email" placeholder="name@eliococ.com" required>
+                    <input type="email" name="emailMember" id="email" placeholder="name@eliococ.com" required>
                 </label>
                 <label for="phone">
                     Cellphone
-                    <input type="tel" name="phone" id="phone" placeholder="123-456-789" required>
+                    <input type="tel" name="phoneNumber" id="phone" placeholder="123-456-789" required>
                 </label>
                 <label for="business-name">
                     Business Name
-                    <input type="text" name="Business Name" id="business-name" placeholder="Elio Chamber of Commerce" required>
+                    <input type="text" name="businessName" id="business-name" placeholder="Elio Chamber of Commerce" required>
                 </label>
                 <fieldset>
                     <h3>Type of Membership</h3>
                     <label for="np-member" class="membership">
                         
-                        <input type="radio" name="level" id="np-member" value="NP Membership" required>
+                        <input type="radio" name="levelMembership" id="np-member" value="NP Membership" required>
                         NP Membership $0
                     </label>
                     <label for="bronze-member" class="membership">
                         
-                        <input type="radio" name="level" id="bronze-member" value="Bronze Membership" required>
+                        <input type="radio" name="levelMembership" id="bronze-member" value="Bronze Membership" required>
                         Bronce Membership $99
                     </label>
                     <label for="siver-member" class="membership">
                         
-                        <input type="radio" name="level" id="silver-member" value="Silver Membership" required>
+                        <input type="radio" name="levelMembership" id="silver-member" value="Silver Membership" required>
                         Silver Membership $199
                     </label>
                     <label for="gold-member" class="membership">
                         
-                        <input type="radio" name="level" id="gold-member" value="Gold Membership" required>
+                        <input type="radio" name="levelMembership" id="gold-member" value="Gold Membership" required>
                         Gold Membership $299
                     </label>
                 </fieldset>
@@ -133,17 +133,24 @@
             </form>
         </section>
 
-        <section>
+        <section id="membership-info">
             <p>Get all the benefits we offer for you and your company</p>
-            
-            <h3 id="np">NP Membership</h3>
-            <p>Receive all the information from our newsletter for the upcoming events, meetings and updates</p>
-            <h3 id="bronze">Bronze Membership</h3>
-            <p>All the benefits from NP Membership and access to our webinars/seminars and training events</p>
-            <h3 id="silver">Silver Membership</h3>
-            <p>All the benefits from Bronze Membership and displaying of your business in our website</p>
-            <h3 id="gold">Gold Membership</h3>
-            <p>All the benefits from Gold Membership and use of all our facilities for meetings, twice per month</p>
+            <article>
+                <h3 id="np">NP Membership</h3>
+                <p>Receive all the information from our newsletter for the upcoming events, meetings and updates</p>
+            </article>  
+            <article>
+                <h3 id="bronze">Bronze Membership</h3>
+                <p>All the benefits from NP Membership and access to our webinars/seminars and training events</p>
+            </article>
+            <article>
+                <h3 id="silver">Silver Membership</h3>
+                <p>All the benefits from Bronze Membership and displaying of your business in our website</p>
+            </article>
+            <article>
+                <h3 id="gold">Gold Membership</h3>
+                <p>All the benefits from Gold Membership and use of all our facilities for meetings, twice per month</p>
+            </article>
         </section>
 
 
