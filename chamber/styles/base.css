@@ -518,18 +518,22 @@ label input:required {
 #np {
     background-color: #489FB5;
     color: #EDE7E3;
+    border-radius: 1rem;
 }
 
 #bronze {
     background-color: burlywood;
+    border-radius: 1rem;
 }
 
 #silver {
     background-color: silver;
+    border-radius: 1rem;
 }
 
 #gold {
     background-color: gold;
+    border-radius: 1rem;
 }
 
 #thankyou {
@@ -557,4 +561,12 @@ button, input {
 
 #membership-info article p {
     text-align: left;
+}
+
+#membership-info article img {
+    width: 80%;
+    margin: auto;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 5rem;
 }
