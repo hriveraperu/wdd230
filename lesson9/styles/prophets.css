@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+html {
+    font-family: 'Great Vibes', cursive;
+    text-align: center;
+}
+
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 1rem;
+    
+}
+
+.cards section {
+    background-color:rgba(184, 135, 11, 0.644);
+    height: 100%;
+    border: 0.1rem solid black;
+    border-radius: 1rem;
+    box-shadow: 10px 10px 30px gold;
+}
+
+.cards section img {
+    width: 80%;
+    border-radius: 1rem;
+    
+}
+
+main {
+    margin: 2rem;
+}
