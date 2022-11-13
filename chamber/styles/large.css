@@ -153,6 +153,10 @@ header section img {
 #discover img:hover {
     filter: none;
 }
+#membership-info article img {
+    width: 50%;
+}
+
 
     
 }
