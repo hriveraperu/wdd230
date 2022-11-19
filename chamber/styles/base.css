@@ -562,6 +562,15 @@ button, input {
 
 #membership-info article p {
     text-align: left;
+    width: 80%;
+}
+
+#membership-info article h3 {
+    padding-left: 1rem;
+}
+
+#membership-info p{
+    padding-left: 2rem;
 }
 
 #membership-info article img {
@@ -570,8 +579,14 @@ button, input {
     padding-top: 1rem;
     padding-bottom: 1rem;
     border-radius: 5rem;
-    
 }
+
+#join h3, #join p {
+    text-align: left;
+    width: 95%;
+
+}
+
 #directory {
     display: block;
     background-color: #EDE7E3;
