@@ -75,6 +75,7 @@ header nav {
 #hamburger {
     margin-left: 0.3rem;
     width: 3rem;
+    padding: 0;
 }
 
 #hamburger span:nth-child(1) {
@@ -570,4 +571,87 @@ button, input {
     padding-bottom: 1rem;
     border-radius: 5rem;
     
+}
+#directory {
+    display: block;
+    background-color: #EDE7E3;
+}
+
+#directory > section {
+    width: 90%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+
+#directory a {
+    color: #8F6593;
+}
+
+#directory > h2 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+#directory button {
+    text-align: center;
+    padding: 0;
+    width: 30%;
+    height: 2rem;
+    font-size: 1.5rem;
+}
+
+.json-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 1rem;
+    
+}
+
+.json-grid section {
+    background-color: #EDE7E3;
+    height: 100%;
+    border: 0.1rem solid #8F6593;
+    border-radius: 1rem;
+    box-shadow: 10px 10px 30px #8F6593;
+    padding: 0  ;
+}
+
+.json-grid section img {
+    width: 60%;
+    border-radius: 1rem;
+}
+
+.json-list {
+    display: flex;
+    flex-direction: column;
+    grid-gap: 1rem;
+    
+}
+
+.json-list section {
+    display: flex;
+    align-items: center;
+    background-color: #EDE7E3;
+    height: 100%;
+    border: 0.1rem solid #8F6593;
+    border-radius: 1rem;
+    box-shadow: 10px 10px 30px #8F6593;
+    padding: 0  ;
+}
+
+.json-list section img {
+    flex-direction: column;
+    text-align: center;
+    width: 15%;
+    border-radius: 1rem;
+    order: -1;
+}
+
+.json-list h2 {
+    width: 30%;
+    font-size: 0.8rem;
+}
+.json-list h3 {
+    font-size: 0.4rem;
 }

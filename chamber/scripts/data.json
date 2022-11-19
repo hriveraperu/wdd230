@@ -1,0 +1,76 @@
+{
+    "directory": [
+ {
+  "name": "Vada Motors",
+  "address": "Av. Eleazar Guzman y Barron 2612 Urb. Elio - Lima",
+  "phone": "976 511 095",
+  "website": "https:\/\/www.facebook.com\/VADAMOTOR\/",
+  "image": "images\/vmotors.webp",
+  "membership": "Gold Member"
+ },
+ {
+  "name": "Vilma Estilista",
+  "address": "Av. Elvira García y Garcia 2289 Urb. Elio - Lima",
+  "phone": "977 613 649",
+  "website": "https:\/\/www.facebook.com\/profile.php?id=100039615146294",
+  "image": "images\/vestilista.webp",
+  "membership": "Gold Member"
+ },
+ {
+  "name": "Enjoit",
+  "address": "Av. Colonial 2322 Urb. Roma - Lima",
+  "phone": "982 217 341",
+  "website": "https:\/\/www.facebook.com\/enjoit.oficial",
+  "image": "images\/enyoit.webp",
+  "membership": "Gold Member"
+ },
+ {
+  "name": "Domy Store",
+  "address": "Av. Reynaldo Saavedra Piñon 2290 Urb. Elio - Lima",
+  "phone": "(01) 6364665",
+  "website": "https:\/\/www.facebook.com\/domystorelima\/",
+  "image": "images\/dstore.webp",
+  "membership": "Silver Member"
+ },
+ {
+  "name": "Bodega Carlitos",
+  "address": "Av. Elvira Garcia y Garcia 2281 Urb. Elio - Lima",
+  "phone": "999 555 333",
+  "website": "https:\/\/goo.gl\/maps\/osSRddthtcY6QGAj8",
+  "image": "images\/bcarlitos.webp",
+  "membership": "Silver Member"
+ },
+ {
+  "name": "El Vaquerito - Roasted Chicken",
+  "address": "Av. Reynaldo Saavedra Pinón 2631 Urb. Elio - Lima",
+  "phone": "937 255 888",
+  "website": "https:\/\/www.facebook.com\/elvaquerito.pe\/",
+  "image": "images\/pvaquerito.webp",
+  "membership": "Silver Member"
+ },
+ {
+  "name": "Gran Genio - Sandwichs",
+  "address": "Av. Victor Sarria 1154 Urb. Elio - Lima",
+  "phone": "991 097 493",
+  "website": "https:\/\/www.facebook.com\/Elgrangenio\/",
+  "image": "images\/ggenio.webp",
+  "membership": "Silver Member"
+ },
+ {
+  "name": "Franz's Hairdressing",
+  "address": "Av. Reynaldo Saavedra Pinón 2661 Urb. Elio -  Lima",
+  "phone": "(01) 3365932",
+  "website": "https:\/\/goo.gl\/maps\/DLi5Ps9gEfUPtAuv9",
+  "image": "images\/pfranz.webp",
+  "membership": "Silver Member"
+ },
+ {
+  "name": "D'Yeri Bakery",
+  "address": "Av. Víctor Sarria 1332 Urb. Elio - Lima",
+  "phone": 999333222,
+  "website": "https:\/\/facebook.com\/profile.php?id=100036783476151",
+  "image": "images\/dyeri.webp",
+  "membership": "Silver Member"
+ }
+]
+}

@@ -227,5 +227,19 @@ img[data-src] {
     padding-right: 10px;
 } */
 
+.json-list h2 {
+    width: 30%;
+    font-size: 1.5rem;
+    overflow-wrap: break-word;
+}
+.json-list h3 {
+    font-size: 0.8rem;
+}
+
+.json-grid h3 {
+    font-size: 0.8rem;
+}
+
+
 }
 
