@@ -6,8 +6,11 @@ const website = "https://api.openweathermap.org/"
 const city = "data/2.5/weather?q="
 const units = "&units="
 const appid = "&appid="
+const apikey = "558baa80b48666420e82d85bd521673d"
+let tempUnit = "imperial"
+let cityName = "Fairbanks"
 
-const url = `${website}${city}Fairbanks${units}imperial${appid}558baa80b48666420e82d85bd521673d`
+const url = `${website}${city}${cityName}${units}${tempUnit}${appid}${apikey}`
 
 
 async function apiFetch() {
@@ -15,8 +18,7 @@ async function apiFetch() {
       const response = await fetch(url);
       if (response.ok) {
         const data = await response.json();
-        console.log(data); // this is for testing the call
-        // displayResults(data);
+       
         function displayResults(weatherData) {
             currentTemp.innerHTML = `<strong>${weatherData.main.temp.toFixed(0)}</strong>`;
 
