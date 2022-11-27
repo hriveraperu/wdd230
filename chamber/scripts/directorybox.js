@@ -82,7 +82,7 @@ function displayDirectory(biz) {
     card.appendChild(address);
     card.appendChild(phone);
     card.appendChild(website);
-    card.appendChild(membership);
+    // card.appendChild(membership);
     
   
     // Add/append the existing HTML div with the cards class with the section(card)
