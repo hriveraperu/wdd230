@@ -49,7 +49,7 @@ function displayDirectory(biz) {
     let tel = document.createElement('a')
     let website = document.createElement('h3');
     let link = document.createElement('a')
-    let membership = document.createElement('h3');
+    // let membership = document.createElement('h3');
 
   
     // Change the textContent property of the h2 element to contain the prophet's full name

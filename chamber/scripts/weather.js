@@ -10,7 +10,7 @@ let weather = {
     displayWeather: function(data) {
         const { temp, conditions, humidity, icon, windspeed } = data.currentConditions;
         const { description } = data;
-        console.log(temp, conditions, humidity, icon, description, windspeed)
+        // console.log(temp, conditions, humidity, icon, description, windspeed)
         document.querySelector(".temperature").innerHTML = temp + '°';
         document.querySelector(".humidity").innerHTML = humidity + "%";
         document.querySelector(".temp-icon").src = 'https://www.visualcrossing.com/img/' + icon + ".svg";
