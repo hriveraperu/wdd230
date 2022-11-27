@@ -390,6 +390,10 @@ section div img {
     font-size: 1.0rem;
 }
 
+.spotlight-list a {
+    color: #8F6593;
+}
+
 section img {
     width: 100%;
 }
