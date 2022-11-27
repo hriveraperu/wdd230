@@ -62,8 +62,13 @@ button#hamburger span {
     
 }
 
-nav ul {display:none; }
-nav ul.open {display: block; margin: 0; }
+nav ul {
+    display:none; 
+}
+
+nav ul.open {
+    display: block; margin: 0; 
+}
 
 
 
@@ -123,23 +128,18 @@ nav {
 }
 
 li {
-    /* border-color: #EDE7E3;
-    border-width: 1px;
-    border-style: ridge; */
     height: 100%;
     text-decoration: none;
     color: #011627;
     font-family: 'Teko', sans-serif;
     text-align: center;
     list-style: none;
-    
 }
 
 
 ul li a {
     text-decoration: none;
     color: #011627;
-    
 }
 
 
@@ -175,8 +175,6 @@ footer div p, footer div a {
 
 footer p:hover {
     color: #489FB5;
-    /* text-align: center; */
-    /* font-size: 1.2rem; */
 }
 
 main {
@@ -255,7 +253,6 @@ main h2 {
     text-align: center;
     padding: 0;
     margin: 0 auto;
-    
 }
 
 h3 {
@@ -287,10 +284,6 @@ footer h2 {
 
 header nav a, header nav a img {
     height: 2.2rem;
-    /* width: 2.2rem;
-    float: right;
-    margin-right: 1rem; */
-
 }
     
 .join-box {
@@ -316,9 +309,6 @@ header nav a, header nav a img {
     transition: 0.5s;
 }
 
-
-
-
 header p {
     background-color: #EDE7E3;
     color: #8F6593;
@@ -331,7 +321,6 @@ header p {
     width: 5rem;
     grid-column: 1/3;
     margin: 0 auto;
-    
 }
 
 section span {
@@ -353,14 +342,12 @@ section span {
     grid-row: 1/5;
     object-fit: cover;
     height: 100%;
-
 }
 
 .hero-box {
     display: grid;
     padding: 0;
     grid-template-columns: 1fr;
-    /* grid-template-rows: 1fr 1fr 1fr 1fr; */
 }
 
 .hero-box h2 {
@@ -375,7 +362,6 @@ section span {
     z-index: 2;
     font-size: 1.5rem;
     font-weight: 100;
-
 }
 
 section div img {
@@ -401,9 +387,6 @@ section img {
 .weather-box {
     width: 80%;
     display: grid;
-    /* grid-template-columns: 1fr 1fr;
-    grid-template-rows: 2fr 1fr 1fr 1fr 2fr 1fr 1fr; */
-    
 }
 
 .weather-box h3 {
@@ -458,15 +441,9 @@ span.conditions {
     grid-column: 2/3;
 }
 
-/* main picture img{
-   width: 1080px;
-    width: 100%;
-} */
-
 #discover img {
     grid-column: 1/4;
     grid-auto-flow: column;
-    /* width: 1080px; */
     justify-self: center;
     width: 90%;
     margin-bottom: 1rem;
@@ -664,4 +641,62 @@ button, input {
 }
 .json-list h3 {
     font-size: 0.4rem;
+}
+
+#contact {
+    display: block;
+}
+
+.eliococ {
+    width: 80%;
+    grid-column: 2/3;
+
+}
+
+#contact article{
+    display: block;
+    width: 100%;
+    
+}
+
+article h1, article h2, article h3 {
+    width: 90%;
+    text-align: left;
+    margin: 0 auto;
+    grid-column: 1/2;
+}
+
+#contact article img {
+    display: block;
+    margin: 0 auto;
+    place-self: center;
+}
+
+#contact label {
+    display: grid;
+    font-family: "Patua One", cursive;
+    text-align: left;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin: 20px auto;
+}
+
+#contact input {
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+#form-contact {
+    width: 90%;
+    margin: auto;
+}
+
+#form-contact-container {
+    margin-top: 2rem;
+}
+
+input[type="submit"] {
+    background-color: #8F6593;
+    color: #EDE7E3;
 }

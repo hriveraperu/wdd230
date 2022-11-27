@@ -7,11 +7,8 @@ fetch(requestURL)
     return response.json();
   })
   .then(function (jsonObject) {
-    console.table(jsonObject);
     const directory = jsonObject['directory'];
     shuffle(directory)
-    // var ranInt = Math.random(9)
-    // directory.forEach(displayDirectory);
     for (let i = 0; i < 3; i++) {
         displayDirectory(directory[i]);
     }

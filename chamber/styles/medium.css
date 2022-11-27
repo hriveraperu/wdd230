@@ -80,60 +80,6 @@ footer div * {
     margin: 0 auto;
 }
 
-/* nav button {display: none;}
-
-
-
-nav ul#main-nav {
-    display:flex;
-    margin-left: 2vw;
-    border-left: 1px solid rgba(0,0,0,0.3);
-    
-}
-
-nav ul li a {
-    border-style: ridge;
-    width: 100%;
-    margin: 0 auto;
-    border-color: #eDe7e3;
-    padding: 0;
-    
-}
-
-nav ul li  {
-    width: 25%;
-    
-    
-}
-
-header nav a {
-    
-    display: flex;
-}
-
-nav {
-    margin: 0 auto;
-}
-
-ul#main-nav {
-    margin: 0 auto;
-    display: flex;
-    width: 90%;
-}
-
-li a h3 {
-    margin: 0 auto;
-
-}
-
-nav ul#main-nav {
-    margin: 0 auto;
-}
-
-header nav a, header nav a img {
-    margin-left: 0.2rem;
-    margin-right: 0.2rem;
-} */
 
 main {
     display: grid;
@@ -222,10 +168,6 @@ img[data-src] {
 
 }
 
-/* #join section form, #join section p, #join section h3 {
-    padding-left: 10px;
-    padding-right: 10px;
-} */
 
 .json-list h2 {
     width: 30%;
@@ -238,6 +180,26 @@ img[data-src] {
 
 .json-grid h3 {
     font-size: 0.8rem;
+}
+
+#contact article{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+}
+
+article h1, article h2, article h3 {
+    width: 90%;
+    text-align: left;
+    margin: 0 auto;
+    grid-column: 1/2;
+}
+
+#contact article img {
+    grid-row: 1/6;
+    max-width: 100%;
+    place-self: center;
+    height: max-content;
 }
 
 

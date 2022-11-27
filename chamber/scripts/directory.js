@@ -6,7 +6,7 @@ fetch(requestURL)
     return response.json();
   })
   .then(function (jsonObject) {
-    console.table(jsonObject);
+    
     const directory = jsonObject['directory'];
     directory.forEach(displayDirectory);
   });
@@ -40,7 +40,7 @@ function displayDirectory(biz) {
 
     link.href = biz.website;
     link.textContent = "Link";
-    tel.href = `tel: ${biz.phone.replace(/\s/g, '')}`;
+    tel.href = `tel: ${biz.phone}`;
     tel.textContent = biz.phone;
     // website.appendChild(link);
 

@@ -48,7 +48,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="directory.html">
                         <h3>DIRECTORY</h3>
                     </a>
                 </li>
@@ -67,7 +67,51 @@
     </header>
 
     <main id="contact">
-     
+        
+        <section>
+            <article>
+                <h1>Contact Us</h1>
+                <h2>Elio's Chamber of Commerce</h2>
+                <h3>Jose Remy Barua 2685 Urb. Elio</h3>
+                <h3>Phone: 51(1) 5552266</h3>
+                <h3>contact@eliococ.com</h3>
+                <img class="eliococ" src="images/eliococ.jpg" alt="picture of Elio's Chamber of Commerce">
+            </article>
+
+        </section>
+
+        <section id="form-contact-container">
+            <form id="form-contact" action="thankyou.html" method="get">
+                <h3>Contact Information</h3>
+                <label for="first-name-contact">
+                    First Name
+                    <input type="text" name="firstNameContact" id="first-name-contact" placeholder="John" required>
+                </label>
+                <label for="last-name-contact">
+                    Last Name
+                    <input type="text" name="lastNameContact" id="last-name-contact" placeholder="Doe" required>
+                </label>
+                <label for="org-name">
+                    Business Name
+                    <input type="text" name="orgName" id="org-name" placeholder="Elio Chamber of Commerce" required>
+                </label>
+                <label for="email-contact">
+                    E-mail
+                    <input type="email" name="emailContact" id="email-contact" placeholder="name@eliococ.com" required>
+                </label>
+                <label for="phone-contact">
+                    Cellphone
+                    <input type="tel" name="phoneNumberContact" id="phone-contact" placeholder="123-456-789" required>
+                </label>
+                <label for="datetime-contact">
+                    <input type="hidden" name="dateTimeContact" id="currentdate" value="CurrentDateTime"></input>
+                </label>
+                <label for="submit-contact">
+                    <input type="submit" name="submitFormContact" value="Submit">
+                </label>
+            </form>
+        
+        </section>
 
     </main>
 
@@ -92,7 +136,5 @@
     <script src="scripts/script.js"></script>
     <script src="scripts/lazyload.js"></script>
     <script src="scripts/timesince.js"></script>
-
-    <script src="scripts/directory.js"></script>
 </body>
 </html>
