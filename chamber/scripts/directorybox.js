@@ -1,6 +1,7 @@
 const requestURL = 'scripts/data.json';
 const cards = document.querySelector('.json-list');
 
+
 fetch(requestURL)
   .then(function (response) {
     return response.json();
@@ -8,20 +9,41 @@ fetch(requestURL)
   .then(function (jsonObject) {
     console.table(jsonObject);
     const directory = jsonObject['directory'];
-    directory.forEach(displayDirectory);
+    shuffle(directory)
+    // var ranInt = Math.random(9)
+    // directory.forEach(displayDirectory);
+    for (let i = 0; i < 3; i++) {
+        displayDirectory(directory[i]);
+    }
+    
   });
 
 
   
-
+function shuffle(array) {
+    let currentIndex = array.length,  randomIndex;
+  
+    // While there remain elements to shuffle.
+    while (currentIndex != 0) {
+  
+      // Pick a remaining element.
+      randomIndex = Math.floor(Math.random() * currentIndex);
+      currentIndex--;
+  
+      // And swap it with the current element.
+      [array[currentIndex], array[randomIndex]] = [
+        array[randomIndex], array[currentIndex]];
+    }
+  
+    return array;
+}
 
 
 function displayDirectory(biz) {
     // Create elements to add to the document
-    let card = document.createElement('section');
+    let card = document.createElement('div');
     let h2 = document.createElement('h2');
     let logo = document.createElement('img');
-    // let cardinal = "";
     let address = document.createElement('h3');
     let phone = document.createElement('h3');
     let tel = document.createElement('a')
@@ -50,7 +72,7 @@ function displayDirectory(biz) {
     phone.appendChild(tel);
     website.textContent = `Website: `;
     website.appendChild(link);
-    membership.textContent = `Membership Level: ${biz.membership}`;
+    // membership.textContent = `Membership Level: ${biz.membership}`;
 
     
   
@@ -64,31 +86,5 @@ function displayDirectory(biz) {
     
   
     // Add/append the existing HTML div with the cards class with the section(card)
-    document.querySelector('.json-list').appendChild(card);
+    document.querySelector('.spotlight-list').appendChild(card);
   }
-
-let gridButton = document.querySelector("#grid");
-let listButton = document.querySelector("#list");
-
-function changeList() {
-    
-    let directoryList = document.querySelector("article")
-
-    directoryList.classList.add("json-list");
-	directoryList.classList.remove("json-grid");
-
-}
-
-
-
-function changeGrid() {
-    
-    let directoryList = document.querySelector("article")
-
-    directoryList.classList.add("json-grid");
-	directoryList.classList.remove("json-list");
-
-}
-
-gridButton.addEventListener("click", changeGrid)
-listButton.addEventListener("click", changeList)
