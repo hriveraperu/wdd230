@@ -1,0 +1,52 @@
+@media (min-width: 768px) {
+
+    #webheader p {
+        font-size: 1.2rem;
+
+    }
+    
+    #hamburger {
+        font-size: x-large;
+    }
+
+    #hero {
+        grid-template-columns: 1.2fr 1fr;
+        grid-template-rows: repeat(6, 0.2fr);
+    }
+
+    #hero h1 {
+        font-size: 1.5rem;
+        padding: 1.5rem;
+        text-align: center;
+        line-height: 2.5rem;
+        border-radius: 2rem;
+        margin-right: 1rem;
+    }
+
+    #highlights {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    #highlights h2 {
+        font-size: 1.8rem;
+    }
+
+
+    #forecast {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    #forecast h2 {
+        font-size: 1.8rem;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+
+    }
+
+    footer p {
+        font-size: 1rem;
+    }
+
+}

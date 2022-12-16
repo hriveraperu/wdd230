@@ -14,7 +14,7 @@ const icon3 = document.createElement('img');
 const caption3 = document.createElement('p');
 const humidity3 = document.createElement('p');
 
-// API url for Carlsbad, CA with units in Fahrenheit (imperial) and my API ID
+// API URL
 const url = 'https://api.openweathermap.org/data/3.0/onecall?lat=33.158092&lon=-117.350594&units=imperial&limit=3&appid=ab2701079d14f2054e74a081b52368fc';
 
 // Function to fetch API
