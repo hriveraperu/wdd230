@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bountiful Foods - Local foods and goods in Carlsbad, California</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+</head>
+<body>
+    <header>
+        <section id="webheader">
+            <p>Follow us in our social media</p>
+            <a href="#"><img src="images/facebook.png" alt="facebook logo"></a> 
+            <a href="#"><img src="images/twitter.png" alt="twitter logo"></a>
+            <a href="#"><img src="images/instagram.png" alt="instagram logo"></a>
+        </section>
+        <nav id="nav">
+            <img id="hero-img" src="images/logobf.webp" alt="logo of Bountiful foods">
+            <button id="hamburger"><span>&#9776;</span><span>X</span></button>
+            <ul id="menu">
+                <li><a href="index.html"><h3>Home</h3></a></li>
+                <li class="active"><a href="fresh.html"><h3>Fresh</h3></a></li>
+                <li><a href="aboutus.html"><h3>About Us</h3></a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="formsection">
+        <h2 class="form-heading">Drink Order Form</h2>
+        <form method="get" id="drinkForm">
+          <fieldset>
+            <legend>Contact Information</legend>
+            <label for="firstName" class="top">First Name*
+              <input type="text" name="firstName" id="firstName" required></label>
+            <label for="lastName" class="top">Last Name
+              <input type="text" name="lastName" id="lastName"></label><label for="email" class="top">Email*
+              <input type="email" name="email" placeholder="user@email.com" id="email" required></label>
+            <label for="phone" class="top">Phone*
+              <input type="tel" name="phone" placeholder="1235551234" id="phone" pattern="[0-9]{10}" required></label>
+          </fieldset>
+          <fieldset>
+            <legend>Drink Order</legend>
+            <label for="ingredient1" class="top">First Ingredient
+              <select name="ingredient1" id="ingredient1" required>
+                <option value="" selected="" disabled="">Choose an ingredient</option>
+              </select>
+            </label>
+            <label for="ingredient2" class="top">Second Ingredient
+              <select name="ingredient2" id="ingredient2">
+                <option value="" selected="" disabled="">Choose an ingredient</option>
+              </select>
+            </label>
+            <label for="ingredient3" class="top">Third Ingredient
+              <select name="ingredient3" id="ingredient3">
+                <option value="" selected="" disabled="">Choose an ingredient</option>
+              </select>
+            </label>
+            <label for="specialInstructions" class="top">Special Instructions
+              <textarea name="specialInstructions" id="specialInstructions" rows="5" cols="30"></textarea>
+            </label>
+          </fieldset>
+          <input type="hidden" name="dateSubmitted" value="" id="datenow">
+          <input type="submit" id="subButton" name="subButton" value="Order Drink" class="form-button">
+        </form>
+        <div id="juiceList" class="def-div">
+          <h3>Juice List</h3>
+          <p>
+            <strong>Date:</strong><br>
+            <span id="juiceDate"></span>
+          </p>
+          <p>
+            <strong>First Name:</strong><br>
+            <span id="juicefname"></span>
+          </p>
+          <p>
+            <strong>Last Name:</strong><br>
+            <span id="juicelname"></span>
+          </p>
+          <p>
+            <strong>Email:</strong><br>
+            <span id="juicemail"></span>
+          </p>
+          <p>
+            <strong>Phone:</strong><br>
+            <span id="juicephone"></span>
+          </p>
+          <p>
+            <strong>First Ingredient:</strong><br>
+            <span id="fruit1"></span>
+          </p>
+          <p>
+            <strong>Second Ingredient:</strong><br>
+            <span id="fruit2"></span>
+          </p>
+          <p>
+            <strong>Third Ingredient:</strong><br>
+            <span id="fruit3"></span>
+          </p>
+          <p>
+            <strong>Special Instructions:</strong><br>
+            <span id="juicespecial"></span>
+          </p>
+          <p>
+            <strong>Carbohydrates (Total):</strong><br>
+            <span id="totCarbs"></span>
+          </p>
+          <p>
+            <strong> Protein (Total):</strong><br>
+            <span id="totProtein"></span>
+          </p>
+          <p>
+            <strong>Fat (Total):</strong><br>
+            <span id="totFat"></span>
+          </p>
+          <p>
+            <strong>Calories (Total):</strong><br>
+            <span id="totCalories"></span>
+          </p>
+          <p>
+            <strong>Sugar (Total):</strong><br>
+            <span id="totSugar"></span>
+          </p>
+          <br>
+        </div>
+      </main>
+    <footer>
+        <img src="images/logobf.webp" alt="logo of Bountiful foods">
+        <p>#2233, 101 St.</p>
+        <p>Carlsbad, California</p>
+        <p>Phone: (1) 505 2211232</p>
+        <p class="lower">Weather data provided by OpenWeatherMap.org</p>
+        <p class="lower2"></p>
+    </footer>
+
+</body>
+
+    <script src="scripts/script.js"></script>
+    
+    <script src="scripts/lastmodified.js"></script>
+    <script src="scripts/fruits.js"></script>
+</html>
