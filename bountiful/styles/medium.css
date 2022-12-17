@@ -49,4 +49,44 @@
         font-size: 1rem;
     }
 
+    #location { 
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(6,1fr);
+        font-family: "Mulish", sans-serif;
+        background-color: var(--second-bgcolor);
+        color: var(--second-txtcolor);
+        
+    }
+    
+    #location iframe {
+        grid-row: 1/7;
+    }
+    
+    #location p:nth-of-type(1) {
+        grid-row: 2/3;
+        width: 80%;
+        margin: 0 auto;
+    }
+    
+    #location p:nth-of-type(2) {
+        grid-row: 3/4;
+        width: 80%;
+        margin: 0 auto;
+    }
+    
+    #location p:nth-of-type(3) {
+        grid-row: 4/5;
+        width: 80%;
+        margin: 0 auto;
+    }
+    
+    #location h2 {
+        grid-row: 1/2;
+        width: 80%;
+        margin: auto;
+        font-family: "Shrikhand", sans-serif;
+        font-weight: 400;
+    }
+
 }
